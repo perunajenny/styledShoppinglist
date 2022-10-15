@@ -33,9 +33,7 @@ export default function App() {
 
  function handleRemove(id) { 
   const newData = data.filter((item) => item.id !== id); 
-
-    setData(newData);
-  // remove item
+   setData(newData);
 }
 
   return (
@@ -93,5 +91,3 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   }
 });  
-
-//keyExtractor={item => item.product}
